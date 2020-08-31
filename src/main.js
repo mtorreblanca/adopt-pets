@@ -3,6 +3,7 @@ import BoostrapVue from 'bootstrap-vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './assets/index.sass'
 
 import App from './App.vue'
 import router from './router'

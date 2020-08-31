@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-view-container">
     <h1>Adopt a new best friend.</h1>
     {{ animalsCount }} {{ getAllCats.length }}
     <button @click="togglePetForm" type="button" class="btn btn-primary">Add New Pet</button>
