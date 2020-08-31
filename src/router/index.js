@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+import Cats from '@/views/Cats.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -13,10 +15,10 @@ const routes = [
   {
     path: '/cats',
     name: 'cats',
-    component: () => import('../views/Cats.vue')
+    component: Cats
   },
   {
-    path: '/pets',
+    path: '/pets/:species/:id',
     name: 'pets',
     component: () => import('../views/Pets.vue')
   },
